@@ -25,8 +25,7 @@ namespace tanulas_ellenorzo_kvíz
             InitializeComponent();
             tantargyak.Items.Add("Fizika");
             tantargyak.Items.Add("Történelem");
-            tantargyak.Items.Add("Irodalom");
-        }
+            tantargyak.Items.Add("Irodalom");            temakor.IsEnabled = false;        }
 
         private void tantargyak_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
@@ -35,18 +34,21 @@ namespace tanulas_ellenorzo_kvíz
                 temakor.Items.Clear();
                 temakor.Items.Add("Rezgések és hullámok");
                 temakor.Items.Add("Erőtan");
+                temakor.IsEnabled = true;
             }
             else if (tantargyak.SelectedItem == "Történelem")
             {
                 temakor.Items.Clear();
                 temakor.Items.Add("Középkor");
                 temakor.Items.Add("Magyar történelem");
+                temakor.IsEnabled = true;
             }
             else 
             {
                 temakor.Items.Clear();
                 temakor.Items.Add("Orosz irodalom");
                 temakor.Items.Add("Nyugat I. Nemzedéke");
+                temakor.IsEnabled = true;
             }
 
         } 
