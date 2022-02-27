@@ -53,7 +53,9 @@ namespace tanulas_ellenorzo_kvíz
 
     private void feladatokGeneralasa_Click(object sender, RoutedEventArgs e)
         {
-
+            quizOldal quizOldal = new quizOldal();
+            quizOldal.Show();
+            this.Close();
         }
     }
 }
