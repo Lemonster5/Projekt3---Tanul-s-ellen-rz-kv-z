@@ -6,7 +6,5 @@
         xmlns:local="clr-namespace:tanulas_ellenorzo_kvíz"
         mc:Ignorable="d"
         Title="Window1" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+    <Grid/>
 </Window>

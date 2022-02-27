@@ -30,6 +30,29 @@ namespace tanulas_ellenorzo_kvíz
 
         private void tantargyak_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+            if (tantargyak.SelectedItem=="Fizika")
+            {
+                temakor.Items.Clear();
+                temakor.Items.Add("Rezgések és hullámok");
+                temakor.Items.Add("Erőtan");
+            }
+            else if (tantargyak.SelectedItem == "Történelem")
+            {
+                temakor.Items.Clear();
+                temakor.Items.Add("Középkor");
+                temakor.Items.Add("Magyar történelem");
+            }
+            else 
+            {
+                temakor.Items.Clear();
+                temakor.Items.Add("Orosz irodalom");
+                temakor.Items.Add("Nyugat I. Nemzedéke");
+            }
+
+        } 
+
+    private void feladatokGeneralasa_Click(object sender, RoutedEventArgs e)
+        {
 
         }
     }
