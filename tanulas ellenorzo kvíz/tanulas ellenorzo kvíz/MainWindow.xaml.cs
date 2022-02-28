@@ -15,17 +15,19 @@ using System.Windows.Shapes;
 
 namespace tanulas_ellenorzo_kvíz
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
+    
+
     public partial class MainWindow : Window
     {
+        static List<Kerdes> kerdesek;
         public MainWindow()
         {
             InitializeComponent();
             tantargyak.Items.Add("Fizika");
             tantargyak.Items.Add("Történelem");
-            tantargyak.Items.Add("Irodalom");            temakor.IsEnabled = false;        }
+            tantargyak.Items.Add("Irodalom");
+            temakor.IsEnabled = false;
+        }
 
         private void tantargyak_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
