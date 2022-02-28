@@ -1,0 +1,22 @@
+E:\Projekt3---kvíz\tanulas ellenorzo kvíz\tanulas ellenorzo kvíz\bin\Debug\net5.0-windows\tanulas ellenorzo kvíz.exe
+E:\Projekt3---kvíz\tanulas ellenorzo kvíz\tanulas ellenorzo kvíz\bin\Debug\net5.0-windows\tanulas ellenorzo kvíz.deps.json
+E:\Projekt3---kvíz\tanulas ellenorzo kvíz\tanulas ellenorzo kvíz\bin\Debug\net5.0-windows\tanulas ellenorzo kvíz.runtimeconfig.json
+E:\Projekt3---kvíz\tanulas ellenorzo kvíz\tanulas ellenorzo kvíz\bin\Debug\net5.0-windows\tanulas ellenorzo kvíz.runtimeconfig.dev.json
+E:\Projekt3---kvíz\tanulas ellenorzo kvíz\tanulas ellenorzo kvíz\bin\Debug\net5.0-windows\tanulas ellenorzo kvíz.dll
+E:\Projekt3---kvíz\tanulas ellenorzo kvíz\tanulas ellenorzo kvíz\bin\Debug\net5.0-windows\ref\tanulas ellenorzo kvíz.dll
+E:\Projekt3---kvíz\tanulas ellenorzo kvíz\tanulas ellenorzo kvíz\bin\Debug\net5.0-windows\tanulas ellenorzo kvíz.pdb
+E:\Projekt3---kvíz\tanulas ellenorzo kvíz\tanulas ellenorzo kvíz\obj\Debug\net5.0-windows\tanulas ellenorzo kvíz.csproj.AssemblyReference.cache
+E:\Projekt3---kvíz\tanulas ellenorzo kvíz\tanulas ellenorzo kvíz\obj\Debug\net5.0-windows\MainWindow.g.cs
+E:\Projekt3---kvíz\tanulas ellenorzo kvíz\tanulas ellenorzo kvíz\obj\Debug\net5.0-windows\App.g.cs
+E:\Projekt3---kvíz\tanulas ellenorzo kvíz\tanulas ellenorzo kvíz\obj\Debug\net5.0-windows\tanulas ellenorzo kvíz_MarkupCompile.cache
+E:\Projekt3---kvíz\tanulas ellenorzo kvíz\tanulas ellenorzo kvíz\obj\Debug\net5.0-windows\tanulas ellenorzo kvíz_MarkupCompile.lref
+E:\Projekt3---kvíz\tanulas ellenorzo kvíz\tanulas ellenorzo kvíz\obj\Debug\net5.0-windows\MainWindow.baml
+E:\Projekt3---kvíz\tanulas ellenorzo kvíz\tanulas ellenorzo kvíz\obj\Debug\net5.0-windows\tanulas ellenorzo kvíz.g.resources
+E:\Projekt3---kvíz\tanulas ellenorzo kvíz\tanulas ellenorzo kvíz\obj\Debug\net5.0-windows\tanulas ellenorzo kvíz.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projekt3---kvíz\tanulas ellenorzo kvíz\tanulas ellenorzo kvíz\obj\Debug\net5.0-windows\tanulas ellenorzo kvíz.AssemblyInfoInputs.cache
+E:\Projekt3---kvíz\tanulas ellenorzo kvíz\tanulas ellenorzo kvíz\obj\Debug\net5.0-windows\tanulas ellenorzo kvíz.AssemblyInfo.cs
+E:\Projekt3---kvíz\tanulas ellenorzo kvíz\tanulas ellenorzo kvíz\obj\Debug\net5.0-windows\tanulas ellenorzo kvíz.csproj.CoreCompileInputs.cache
+E:\Projekt3---kvíz\tanulas ellenorzo kvíz\tanulas ellenorzo kvíz\obj\Debug\net5.0-windows\tanulas ellenorzo kvíz.dll
+E:\Projekt3---kvíz\tanulas ellenorzo kvíz\tanulas ellenorzo kvíz\obj\Debug\net5.0-windows\ref\tanulas ellenorzo kvíz.dll
+E:\Projekt3---kvíz\tanulas ellenorzo kvíz\tanulas ellenorzo kvíz\obj\Debug\net5.0-windows\tanulas ellenorzo kvíz.pdb
+E:\Projekt3---kvíz\tanulas ellenorzo kvíz\tanulas ellenorzo kvíz\obj\Debug\net5.0-windows\tanulas ellenorzo kvíz.genruntimeconfig.cache

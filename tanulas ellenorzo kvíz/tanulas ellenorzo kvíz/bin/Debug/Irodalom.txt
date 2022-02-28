@@ -1,0 +1,20 @@
+irodalom;orosz irodalom;Kivel kezdődik az orosz irodalom?;Puskinnal;Gogollal;Csehovval;Tolsztojjal;
+irodalom;orosz irodalom;Kik az orosz realizmus hősei?;Fölösleges emberek; Mesebeli hősök; Ókori görög istenek; Bibliai karakterek;
+irodalom;orosz irodalom;Ki az orosz realista írók példaképe?;Gogol;Iljics;Csehov;Putin;
+irodalom;orosz irodalom;Mikor írta Gogol A köpönyeg című elbeszélését?;1842;1999;2011;1833;
+irodalom;orosz irodalom;Ki a köpönyeg című elbeszélés főszereplője?;Egy kishivaltalnok; Egy szuperhős;Egy hétköznapi ember;Egy gazdag hölgy;
+irodalom;orosz irodalom;Mi a célja a főhősnek a köpönyeg című elbeszélésben?;Egy úgy köpönyeg megszerzése;A főgonosz megölése; A barátok összekovácsolása;A szerelme megmentése;
+irodalom;orosz irodalom;Mikor írta Csehov A csinovnyik halála című novelláját?;1883;1990;1541;1901;
+irodalom;orosz irodalom;Mikor halt meg Csehov?;1904;2021;1999;1899;
+irodalom;orosz irodalom;Mikor írta Csehov a Sirály című színjátékát?;1896;1899;2004;1942;
+irodalom;orosz irodalom;Hány felvonásból áll a sirály?;4;1;3;5
+irodalom;Nyugat;Mikor indult a Nyugat?;1908;1999;1921;1888;
+irodalom;Nyugat;Mikor született Ady Endre?;1877;1887;1979;1789;
+irodalom;Nyugat;Mikor jött ki Ady Új versek című kötete?;1906;1914;1988;1900;
+irodalom;Nyugat;Ki volt Ady Endre első szerelme?;Diósy Brüll Adél; Boncza Berta; Halász Judit;Szendrey Júlia;
+irodalom;Nyugat;Mi volt Dósyné Brüll Adél beceneve a versekben?;Léda;Adél;Kedvesem;Szakács;
+irodalom;Nyugat;Hogy hívja Ady Boncza Bertát a verseiben?;Csinszka;Csacsinszka;Csacsinszky;Adél;
+irodalom;Nyugat;Mikor szűnt meg a Nyugat?;1941;1938;1908;1933;
+irodalom;Nyugat;Mikor volt Ady Endre és Boncza Berta esküvője?;1915;1911;1944;1901;
+irodalom;Nyugat;Mikor született Vörösmarty Mihály?;1800;1850;1811;1799;
+irodalom;Nyugat;Ki volt a Nyugat főszerkesztője?;Osvát Ernő;Petőfi Sándor;Arany János;Ady Endre;

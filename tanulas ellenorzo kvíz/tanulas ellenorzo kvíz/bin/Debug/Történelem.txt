@@ -1,0 +1,20 @@
+történelem;középkor;Mikor volt a verduni szerződés?;843;999;1054;1302;
+történelem;középkor;Kinek az alkotása a Dávid elnevezésű szobor?;Michelangelo;Botticelli;Raffaello;Leonardo da Vinci;
+történelem;középkor;Milyen stílusban épült a magyarországi jáki templom?;Román;Gótikus;Reneszánsz;Egyik sem;
+történelem;középkor;Mi az a mezőgazdasági terület, amelyet adott pillanatban nem hasznosítanak?;Ugar;Tized;Kilenced;Vazallus;
+történelem;középkor;Mikor esett el Bizánc?;1453;1444;1551;1411;
+történelem;középkor;A(z) ... az azonos érdekű, társadalmi és gazdasági helyzetű, érdekeikért együtt fellépő emberek csoportja.;Céh;Gyár;Egyesület;Család;
+történelem;középkor;Egy céhben az ... mesterséget űző kézművesek dolgoznak.;Ugyanazt;Teljesen más;Hasonló;Semmilyen;
+történelem;középkor;Mikor volt az első francia rendi gyűlés?;1302;1501;1311;1322;
+történelem;középkor;Mi a szimónia?;Az egyházi hivatalok vásárolhatósága.;Az egyházi méltóságokba való beiktatás joga.;A pápai korona neve.;Az apácák ruházata.;
+történelem;középkor;Mikor volt a poitiers-i csata?;732;777;743;723;
+történelem;magyar történelem;Mikor halt meg István király?;1038;1031;1111;1001;
+történelem;magyar történelem;Kinek a fő érdeme az államalapítás?;I. Szent István;III. Béla;I. Szent László;II. András;
+történelem;magyar történelem;Mikor adták ki az aranybullát?1222;1312;1322;1221;
+történelem;magyar történelem;Ki volt a "második honalapító"?;IV. Béla;I. Szent István;I. Szent László;III. Béla
+történelem;magyar történelem;Mikor volt a nándorfehérvári diadal?;1456;1466;1452;1444;
+történelem;magyar történelem;Mikor került Mátyás trónra?;1458;1444;1402;1423;
+történelem;magyar történelem;Ki fizette kinek a Nagy Lajos által bevezetett kilencedet?;a jobbágyok a földesúrnak;a jobbágy a püspöknek;a városi polgárok a királynak;a jobbágyok a királynak
+történelem;magyar történelem;Mikor halt ki az Árpád-ház?;1301;1333;1310;1502;
+történelem;magyar történelem;Ki volt a honfoglalás vezetője?;Árpád;Géza;Attila;Álmos;
+történelem;magyar történelem;Melyik NEM I. Károly Róberthez köthető?;Füstadó;Urbura;Kapuadó;Aranyforint

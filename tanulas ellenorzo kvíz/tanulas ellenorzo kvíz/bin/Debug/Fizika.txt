@@ -1,0 +1,20 @@
+fizika;rezgések és hullámok;Mi a jele a periódusodőnek?;T;Q;E;F;
+fizika;rezgések és hullámok;Hogyan számoljuk ki a frekvenciát?;f=k/t;f=k*t;f=t/k;f=t+k;
+fizika;rezgések és hullámok;A harmonikus rezgőmozgást végző test kitérése az időnek .... függvénye.;Szinuszos;Koszinuszos;Tangeses;Kotangeses;
+fizika;rezgések és hullámok;Hány csoportja van a hordozó közeg dimenziószáma alapjána a hullámoknak?;3;4;12;2;
+fizika;rezgések és hullámok;Mi a jele a hullám terjedési sebességének?;c;v;g;u;
+fizika;rezgések és hullámok;A hang létrejöttéhez elengedhetetlen egy ... és az azt körülvevő rugalmas közeg.;Hangforrás;Hang;Lapos felület;Test
+fizika;rezgések és hullámok;Minek nevezzük a hallószervünkkel felfogható mechanikai hullámot?;Hangnak;Hanghullámnak;Hangerőnek;Hangleejtésnek;
+fizika;rezgések és hullámok;Minek nevezzük az időben állandó fáziskülönbséggel találkozó hullámokat?;Koherens hullámoknak;Longitudinális hullámoknak;Transzferzális hullámoknak;Konkurencia hullámoknak;
+fizika;rezgések és hullámok;Mi a hullámhossz jele?;λ;G;H;Ω
+fizika;rezgések és hullámok;Mi a frekvencia mértékegysége?;Hertz;Pascal;Kilóméter;Newton;
+fizika;erőtan;Hány erőtörvénye volt Newtonnak? 4;3;5;1;
+fizika;erőtan;Mi az impulzus jele? I;E;A;S;
+fizika;erőtan;Mi hozza létre a nehézségi gyorsulást?;Nehézségi erő;Súrlódási erő;Gravitációs erő;Gördülési ellenállási erő;
+fizika;erőtan;Mi a súly jele?;G;H;C;D
+fizika;erőtan;Minek nevezzük a testre ható erő az időegységre jutó lendületváltozás számértékét?;Lendülettételnek;Lendületnek;Lendület irányának;Sebességnek
+fizika;erőtan;Mi az erő jele?;F;I;A;T;
+fizika;erőtan;Melyik Newton II. törvénye?;F = m*a;F = m+a;F = g*a;F = s*t
+fizika;erőtan;Mi az erő mértékegysége? Newton;Pascal;Ohm;Hertz
+fizika;erőtan;Mi a tömeg jele?;m;g;f;c;
+fizika;erőtan;A dinamika a(z) ... megváltozásának okait keresi.;Mozgások;Idő;Tér;Súly
