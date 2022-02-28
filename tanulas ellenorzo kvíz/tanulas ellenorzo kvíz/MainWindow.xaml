@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Tanulás ellenörző kvíz" Height="650" Width="1000">
     <Grid>
-        <Grid Visibility="Visible" Name="eloLap">
+        <Grid Visibility="Hidden" Name="eloLap">
             <Button x:Name="feladatokGeneralasa" Content="Feladatok generálása" HorizontalAlignment="Center" Margin="0,472,0,0" VerticalAlignment="Top" Height="56" Width="140" Click="feladatokGeneralasa_Click"/>
             <ComboBox x:Name="temakor" HorizontalAlignment="Center" Margin="0,372,0,0" VerticalAlignment="Top" Width="332" Height="25" SelectionChanged="temakor_SelectionChanged"/>
             <ComboBox x:Name="tantargyak" HorizontalAlignment="Center" Margin="0,124,0,0" VerticalAlignment="Top" Width="332" SelectionChanged="tantargyak_SelectionChanged"/>
@@ -15,7 +15,7 @@
             <Label Content="Válasszon ki egy témakört:" HorizontalAlignment="Center" Margin="0,247,0,0" VerticalAlignment="Top" FontSize="26" Width="332"/>
 
         </Grid>
-        <Grid Visibility="Hidden" Name="foLap">
+        <Grid Visibility="Visible" Name="foLap">
             <StackPanel Margin="10,193,10,232" Height="180px">
                 <RadioButton x:Name="elsoValasz" Content="valasz1" Height="40px" FontSize="20px" VerticalAlignment="Center" Padding="4,2,0,0"  />
                 <RadioButton x:Name="masodikValasz" Content="valasz2" Height="40px" FontSize="20px" VerticalAlignment="Center" Padding="4,2,0,0" />
