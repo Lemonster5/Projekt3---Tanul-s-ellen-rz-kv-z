@@ -27,9 +27,20 @@
             <Label x:Name="tantargy" Content="Tantargy" HorizontalAlignment="Left" Margin="28,36,0,0" VerticalAlignment="Top" Height="66" Width="324" FontSize="35px" />
             <Label Content=":" HorizontalAlignment="Left" Margin="352,23,0,0" VerticalAlignment="Top" Height="79" Width="21" FontSize="50px"/>
             <Label x:Name="temakorLabel" Content="Temakor" HorizontalAlignment="Left" Margin="378,36,0,0" VerticalAlignment="Top" Height="66" Width="222" FontSize="35px"/>
-            <Button x:Name="visszaGomb" Content="Vissza" HorizontalAlignment="Left" Margin="95,426,0,0" VerticalAlignment="Top" Height="66" Width="138" FontSize="30"/>
-            <Button x:Name="kovetkezoGomb" Content="Következő" HorizontalAlignment="Left" Margin="665,426,0,0" VerticalAlignment="Top" Height="66" Width="143" FontSize="30" />
-            <Button x:Name="kiertekelGomb" Content="Kiértékelés" HorizontalAlignment="Left" VerticalAlignment="Top" Height="66" Width="158" FontSize="30" Margin="832,426,0,0"/>
+            <Button x:Name="visszaGomb" Content="Vissza" HorizontalAlignment="Left" Margin="94,510,0,0" VerticalAlignment="Top" Height="66" Width="138" FontSize="30" RenderTransformOrigin="0.551,1.645"/>
+            <Button x:Name="kovetkezoGomb" Content="Következő" HorizontalAlignment="Left" Margin="677,510,0,0" VerticalAlignment="Top" Height="66" Width="143" FontSize="30" Click="kovetkezoGomb_Click" />
+            <Button x:Name="kiertekelGomb" Content="Kiértékelés" HorizontalAlignment="Left" VerticalAlignment="Top" Height="66" Width="158" FontSize="30" Margin="832,510,0,0"/>
+            <Button Content="" HorizontalAlignment="Left" Margin="95,495,0,0" VerticalAlignment="Top" Width="68" Height="10"/>
+            <Button Content="" HorizontalAlignment="Left" Margin="168,495,0,0" VerticalAlignment="Top" Width="68" Height="10"/>
+            <Button Content="" HorizontalAlignment="Left" Margin="241,495,0,0" VerticalAlignment="Top" Width="68" Height="10"/>
+            <Button Content="" HorizontalAlignment="Left" Margin="314,495,0,0" VerticalAlignment="Top" Width="68" Height="10"/>
+            <Button Content="" HorizontalAlignment="Left" Margin="387,495,0,0" VerticalAlignment="Top" Width="68" Height="10"/>
+            <Button Content="" HorizontalAlignment="Left" Margin="460,495,0,0" VerticalAlignment="Top" Width="68" Height="10"/>
+            <Button Content="" HorizontalAlignment="Left" Margin="533,495,0,0" VerticalAlignment="Top" Width="68" Height="10"/>
+            <Button Content="" HorizontalAlignment="Left" Margin="606,495,0,0" VerticalAlignment="Top" Width="68" Height="10"/>
+            <Button Content="" HorizontalAlignment="Left" Margin="680,495,0,0" VerticalAlignment="Top" Width="68" Height="10"/>
+            <Button Content="" HorizontalAlignment="Left" Margin="752,495,0,0" VerticalAlignment="Top" Width="68" Height="10"/>
+            <Label x:Name="szamlalo" Content="10/" HorizontalAlignment="Left" Margin="95,436,0,0" VerticalAlignment="Top" Height="38" Width="68" FontSize="20"/>
         </Grid>
     </Grid>
 </Window>

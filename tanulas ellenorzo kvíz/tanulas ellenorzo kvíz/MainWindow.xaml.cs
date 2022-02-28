@@ -20,7 +20,8 @@ namespace tanulas_ellenorzo_kvíz
 
     public partial class MainWindow : Window
     {
-        Kerdes[] kerdesek;
+        static List<Kerdes> kerdesek;
+        int szamlal;
         public MainWindow()
         {
             InitializeComponent();
@@ -28,7 +29,41 @@ namespace tanulas_ellenorzo_kvíz
             tantargyak.Items.Add("Történelem");
             tantargyak.Items.Add("Irodalom");
             temakor.IsEnabled = false;
-            string[] be = File.ReadAllLines("Fizika.txt");
+           
+        }
+        public class Kerdes
+        {
+            public string tantargy;
+            public string temakor;
+            public string kerdes;
+            public string helyesValasz;
+            public string elsoRosszValasz;
+            public string masodikRosszValasz;
+            public string harmadikRosszValasz;
+        }
+        static List<Kerdes> egySor = new List<Kerdes>();
+        private static void FajlBeolvasasa()
+        {
+            string[] fajlok = { "Fizika.txt" };
+            for (int i = 0; i < fajlok.Length; i++)
+            {
+                string[] allomany = File.ReadAllLines(fajlok[i]);
+
+                foreach (var sor in allomany)
+                {
+                    string[] sorE = sor.Split(';');
+                    Kerdes adat = new Kerdes();
+                    adat.tantargy = sorE[0];
+                    adat.temakor = sorE[1];
+                    adat.kerdes = sorE[2];
+                    adat.helyesValasz= sorE[3];
+                    adat.elsoRosszValasz= sorE[4];
+                    adat.masodikRosszValasz= sorE[5];
+                    adat.harmadikRosszValasz= sorE[6];
+                    egySor.Add(adat);
+                }
+            }
+
         }
 
         private void tantargyak_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -61,11 +96,15 @@ namespace tanulas_ellenorzo_kvíz
         {
             eloLap.Visibility = Visibility.Hidden;
             foLap.Visibility = Visibility.Visible;
-            tantargy.Content = tantargy;
         }
         private void temakor_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 
+
+        }
+
+        private void kovetkezoGomb_Click(object sender, RoutedEventArgs e)
+        {
 
         }
     }
