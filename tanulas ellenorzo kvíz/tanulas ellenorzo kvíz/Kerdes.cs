@@ -24,6 +24,15 @@ namespace tanulas_ellenorzo_kvíz
             valaszok = new string[4];
         }
 
+        public string Tantargy { get => tantargy; set => tantargy = value; }
 
+        public string Temakor { get => temakor; set => temakor = value; }
+
+        public string TemaKerdes { get => kerdes; set => kerdes = value; }
+
+        public string HelyesValasz { get => helyesValasz; set => helyesValasz = value; }
+
+        public string[] MaradekValasz { get => valaszok; private set => valaszok = value; }
+     
     }
 }

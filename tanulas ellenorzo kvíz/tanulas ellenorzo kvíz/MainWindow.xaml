@@ -8,7 +8,7 @@
         Title="Tanulás ellenörző kvíz" Height="450" Width="800">
     <Grid>
         <Button x:Name="feladatokGeneralasa" Content="Feladatok generálása" HorizontalAlignment="Left" Margin="322,335,0,0" VerticalAlignment="Top" Height="57" Width="140" Click="feladatokGeneralasa_Click"/>
-        <ComboBox x:Name="temakor" HorizontalAlignment="Left" Margin="226,222,0,0" VerticalAlignment="Top" Width="332" Height="25"/>
+        <ComboBox x:Name="temakor" HorizontalAlignment="Left" Margin="226,222,0,0" VerticalAlignment="Top" Width="332" Height="25" SelectionChanged="temakor_SelectionChanged"/>
         <ComboBox x:Name="tantargyak" HorizontalAlignment="Left" Margin="226,60,0,0" VerticalAlignment="Top" Width="332" SelectionChanged="tantargyak_SelectionChanged"/>
         <Label Content="Válasszon ki egy tantárgyat:" HorizontalAlignment="Left" Margin="226,10,0,0" VerticalAlignment="Top" Width="332" FontSize="26"/>
         <Label Content="Válasszon ki egy témakört:" HorizontalAlignment="Left" Margin="226,172,0,0" VerticalAlignment="Top" FontSize="26" Width="332"/>

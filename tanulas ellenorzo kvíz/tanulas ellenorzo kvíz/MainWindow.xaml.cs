@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -27,6 +28,41 @@ namespace tanulas_ellenorzo_kvíz
             tantargyak.Items.Add("Történelem");
             tantargyak.Items.Add("Irodalom");
             temakor.IsEnabled = false;
+           
+        }
+        public class Kerdes
+        {
+            public string tantargy;
+            public string temakor;
+            public string kerdes;
+            public string helyesValasz;
+            public string elsoRosszValasz;
+            public string masodikRosszValasz;
+            public string harmadikRosszValasz;
+        }
+        static List<Kerdes> egySor = new List<Kerdes>();
+        private static void FajlBeolvasasa()
+        {
+            string[] fajlok = { "Fizika.txt" };
+            for (int i = 0; i < fajlok.Length; i++)
+            {
+                string[] allomany = File.ReadAllLines(fajlok[i]);
+
+                foreach (var sor in allomany)
+                {
+                    string[] sorE = sor.Split(';');
+                    Kerdes adat = new Kerdes();
+                    adat.tantargy = sorE[0];
+                    adat.temakor = sorE[1];
+                    adat.kerdes = sorE[2];
+                    adat.helyesValasz= sorE[3];
+                    adat.elsoRosszValasz= sorE[4];
+                    adat.masodikRosszValasz= sorE[5];
+                    adat.harmadikRosszValasz= sorE[6];
+                    egySor.Add(adat);
+                }
+            }
+
         }
 
         private void tantargyak_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -55,11 +91,16 @@ namespace tanulas_ellenorzo_kvíz
 
         } 
 
-    private void feladatokGeneralasa_Click(object sender, RoutedEventArgs e)
+            private void feladatokGeneralasa_Click(object sender, RoutedEventArgs e)
         {
             quizOldal quizOldal = new quizOldal();
             quizOldal.Show();
             this.Close();
+            quizOldal.temakor.Content = egySor[1];
+        }
+        private void temakor_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+           
         }
     }
 }

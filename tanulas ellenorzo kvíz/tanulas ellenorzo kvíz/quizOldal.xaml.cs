@@ -23,5 +23,10 @@ namespace tanulas_ellenorzo_kvíz
         {
             InitializeComponent();
         }
+
+        private void kovetkezoGomb_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
