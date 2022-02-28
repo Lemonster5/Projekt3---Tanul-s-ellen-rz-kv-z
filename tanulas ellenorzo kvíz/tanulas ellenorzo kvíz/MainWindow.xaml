@@ -5,13 +5,31 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:tanulas_ellenorzo_kvíz"
         mc:Ignorable="d"
-        Title="Tanulás ellenörző kvíz" Height="450" Width="800">
+        Title="Tanulás ellenörző kvíz" Height="650" Width="1000">
     <Grid>
-        <Button x:Name="feladatokGeneralasa" Content="Feladatok generálása" HorizontalAlignment="Left" Margin="322,335,0,0" VerticalAlignment="Top" Height="57" Width="140" Click="feladatokGeneralasa_Click"/>
-        <ComboBox x:Name="temakor" HorizontalAlignment="Left" Margin="226,222,0,0" VerticalAlignment="Top" Width="332" Height="25" SelectionChanged="temakor_SelectionChanged"/>
-        <ComboBox x:Name="tantargyak" HorizontalAlignment="Left" Margin="226,60,0,0" VerticalAlignment="Top" Width="332" SelectionChanged="tantargyak_SelectionChanged"/>
-        <Label Content="Válasszon ki egy tantárgyat:" HorizontalAlignment="Left" Margin="226,10,0,0" VerticalAlignment="Top" Width="332" FontSize="26"/>
-        <Label Content="Válasszon ki egy témakört:" HorizontalAlignment="Left" Margin="226,172,0,0" VerticalAlignment="Top" FontSize="26" Width="332"/>
+        <Grid Visibility="Visible" Name="eloLap">
+            <Button x:Name="feladatokGeneralasa" Content="Feladatok generálása" HorizontalAlignment="Center" Margin="0,472,0,0" VerticalAlignment="Top" Height="56" Width="140" Click="feladatokGeneralasa_Click"/>
+            <ComboBox x:Name="temakor" HorizontalAlignment="Center" Margin="0,372,0,0" VerticalAlignment="Top" Width="332" Height="25" SelectionChanged="temakor_SelectionChanged"/>
+            <ComboBox x:Name="tantargyak" HorizontalAlignment="Center" Margin="0,124,0,0" VerticalAlignment="Top" Width="332" SelectionChanged="tantargyak_SelectionChanged"/>
+            <Label Content="Válasszon ki egy tantárgyat:" HorizontalAlignment="Center" Margin="0,42,0,0" VerticalAlignment="Top" Width="332" FontSize="26"/>
+            <Label Content="Válasszon ki egy témakört:" HorizontalAlignment="Center" Margin="0,247,0,0" VerticalAlignment="Top" FontSize="26" Width="332"/>
 
+        </Grid>
+        <Grid Visibility="Hidden" Name="foLap">
+            <StackPanel Margin="10,193,10,232" Height="180px">
+                <RadioButton x:Name="elsoValasz" Content="valasz1" Height="40px" FontSize="20px" VerticalAlignment="Center" Padding="4,2,0,0"  />
+                <RadioButton x:Name="masodikValasz" Content="valasz2" Height="40px" FontSize="20px" VerticalAlignment="Center" Padding="4,2,0,0" />
+                <RadioButton x:Name="harmadikValasz" Content="valasz3" Height="40px" FontSize="20px" VerticalAlignment="Center" Padding="4,2,0,0" />
+                <RadioButton x:Name="negyedikValasz" Content="valasz4" Height="40px" FontSize="20px" VerticalAlignment="Center" Padding="4,2,0,0"  />
+
+            </StackPanel>
+            <Label x:Name="kerdes" Content="Kerdes" HorizontalAlignment="Center" Margin="0,122,0,0" VerticalAlignment="Top" Height="66" Width="980" FontSize="25px" VerticalContentAlignment="Top" HorizontalContentAlignment="Center" />
+            <Label x:Name="tantargy" Content="Tantargy" HorizontalAlignment="Left" Margin="28,36,0,0" VerticalAlignment="Top" Height="66" Width="324" FontSize="35px" />
+            <Label Content=":" HorizontalAlignment="Left" Margin="352,23,0,0" VerticalAlignment="Top" Height="79" Width="21" FontSize="50px"/>
+            <Label x:Name="temakorLabel" Content="Temakor" HorizontalAlignment="Left" Margin="378,36,0,0" VerticalAlignment="Top" Height="66" Width="222" FontSize="35px"/>
+            <Button x:Name="visszaGomb" Content="Vissza" HorizontalAlignment="Left" Margin="95,426,0,0" VerticalAlignment="Top" Height="66" Width="138" FontSize="30"/>
+            <Button x:Name="kovetkezoGomb" Content="Következő" HorizontalAlignment="Left" Margin="665,426,0,0" VerticalAlignment="Top" Height="66" Width="143" FontSize="30" />
+            <Button x:Name="kiertekelGomb" Content="Kiértékelés" HorizontalAlignment="Left" VerticalAlignment="Top" Height="66" Width="158" FontSize="30" Margin="832,426,0,0"/>
+        </Grid>
     </Grid>
 </Window>

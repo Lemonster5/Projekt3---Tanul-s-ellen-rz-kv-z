@@ -93,14 +93,14 @@ namespace tanulas_ellenorzo_kvíz
 
             private void feladatokGeneralasa_Click(object sender, RoutedEventArgs e)
         {
-            quizOldal quizOldal = new quizOldal();
-            quizOldal.Show();
-            this.Close();
-            quizOldal.temakor.Content = egySor[1];
+            eloLap.Visibility = Visibility.Hidden;
+            foLap.Visibility = Visibility.Visible;
+            tantargy.Content = egySor[0+1];
         }
         private void temakor_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-           
+
+
         }
     }
 }
